@@ -1,0 +1,59 @@
+header h1{
+  text-align: center;
+  color: white;
+  background-color:blue;
+  padding: 5px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  margin: 0px;
+}
+
+.designerTitle {
+  border-top: lightblue;
+  border-top-width: 20px;
+  border-top-style: solid;
+  padding-top: 0px;
+  margin-top: 20px;
+}
+
+
+.leftcolumn {
+  max-width: 500px;
+  margin-left: 25%;
+  display: inline-block;
+}
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  margin-top: 50px;
+}
+
+.pictitle h3 {
+  margin: 2px;
+  margin-left: 0px;
+  padding: 5px;
+}
+
+.picsubtext {
+    margin: 2px;
+    padding-top: 0px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.picsubtext:hover {
+  overflow: visible;
+  overflow-wrap: break-word;
+}
+
+
+.footer {
+ background-color: blue; 
+ padding: 20px;
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+}
